@@ -11,4 +11,6 @@ results = response.json()['results'][0]
 市区町村名 = results["address2"]
 町域名 = results["address3"]
 
-print(f'{都道府県}{市区町村名}{町域名}')
+address = f'{都道府県}{市区町村名}{町域名}'
+
+print(address)
